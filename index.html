@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>InsureWise — Compare Insurance, Save Money, Make Smart Choices</title>
+  <meta name="description" content="Compare auto, home, life, and health insurance. Plain-English guides, real cost breakdowns, and tools to help you find the right coverage at the right price." />
+  <link rel="canonical" href="https://insurewise.org/" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "InsureWise",
+    "description": "Compare insurance types, understand your options, and save money with plain-English guides.",
+    "url": "https://insurewise.org"
+  }
+  </script>
+  <meta name="theme-color" content="#0a1628" />
+  <style>
+    :root{
+      --bg:#f8fafd;
+      --card:#ffffff;
+      --text:#0f1923;
+      --muted:rgba(15,25,35,.65);
+      --line:rgba(15,25,35,.08);
+      --shadow:0 12px 40px rgba(15,25,35,.08);
+      --blue:#1e5bbf;
+      --blue-dark:#1648a0;
+      --green:#1a8f3c;
+      --navy:#0a1628;
+      --radius:18px;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--text);background:var(--bg)}
+    a{color:inherit;text-decoration:none}
+    .wrap{max-width:1100px;margin:0 auto;padding:16px 16px 60px}
+
+    /* Nav */
+    .topbar{position:sticky;top:0;z-index:20;background:rgba(248,250,253,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+    .topbar .inner{max-width:1100px;margin:0 auto;padding:14px 16px;display:flex;align-items:center;justify-content:space-between}
+    .brand{font-weight:900;font-size:18px;display:flex;align-items:center;gap:8px}
+    .brand-icon{width:28px;height:28px;border-radius:9px;background:linear-gradient(135deg,var(--blue),var(--green))}
+    .nav{display:flex;gap:10px;flex-wrap:wrap}
+    .nav a{font-size:13px;padding:8px 14px;border-radius:999px;border:1px solid var(--line);background:rgba(255,255,255,.8)}
+    .nav a:hover{border-color:rgba(15,25,35,.2)}
+    .nav .cta{background:var(--blue);color:#fff;border:0;font-weight:700}
+
+    /* Hero */
+    .hero{padding:30px 0 20px;text-align:center}
+    .hero h1{font-size:clamp(28px,5vw,44px);line-height:1.1;margin:0 0 12px;font-weight:900}
+    .hero h1 span{background:linear-gradient(135deg,var(--blue),var(--green));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+    .hero p{color:var(--muted);font-size:17px;max-width:620px;margin:0 auto 24px;line-height:1.5}
+
+    /* Cards grid */
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin:24px 0}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:24px;box-shadow:var(--shadow);transition:transform .15s}
+    .card:hover{transform:translateY(-2px)}
+    .card h3{margin:0 0 8px;font-size:17px}
+    .card p{margin:0;color:var(--muted);font-size:14px;line-height:1.5}
+    .card .tag{display:inline-block;font-size:11px;font-weight:700;color:var(--blue);background:rgba(30,91,191,.08);padding:4px 10px;border-radius:999px;margin-bottom:12px}
+
+    /* Articles */
+    .section-title{font-size:22px;font-weight:800;margin:36px 0 16px}
+    .article-list{display:flex;flex-direction:column;gap:10px}
+    .article-list a{display:flex;align-items:center;gap:12px;padding:14px 16px;background:var(--card);border:1px solid var(--line);border-radius:14px;transition:border-color .15s}
+    .article-list a:hover{border-color:rgba(30,91,191,.3)}
+    .article-list .date{font-size:12px;color:var(--muted);white-space:nowrap}
+    .article-list .title{font-weight:600;font-size:15px}
+    .article-list .desc{font-size:13px;color:var(--muted)}
+
+    /* CTA banner */
+    .cta-banner{margin:40px 0;padding:32px;border-radius:var(--radius);background:linear-gradient(135deg,var(--navy),var(--blue));color:#fff;text-align:center}
+    .cta-banner h2{margin:0 0 8px;font-size:22px}
+    .cta-banner p{margin:0 0 18px;opacity:.85;font-size:15px}
+    .cta-banner a{display:inline-block;padding:12px 28px;background:#fff;color:var(--navy);border-radius:12px;font-weight:800;font-size:14px}
+
+    footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;text-align:center;line-height:1.6}
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="inner">
+      <div class="brand"><div class="brand-icon" aria-hidden="true"></div>InsureWise</div>
+      <div class="nav">
+        <a href="/auto/">Auto</a>
+        <a href="/home/">Home</a>
+        <a href="/life/">Life</a>
+        <a href="/health/">Health</a>
+        <a href="/guides/">Guides</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <section class="hero">
+      <h1>Insurance doesn't have to be <span>confusing</span></h1>
+      <p>Plain-English guides, real cost comparisons, and smart tools. No sales calls. No spam. Just the info you need to make the right choice.</p>
+    </section>
+
+    <div class="grid">
+      <a class="card" href="/auto/">
+        <div class="tag">🚗 Auto</div>
+        <h3>Car Insurance</h3>
+        <p>Compare rates, understand coverage levels, and find discounts you're probably missing.</p>
+      </a>
+      <a class="card" href="/home/">
+        <div class="tag">🏠 Home</div>
+        <h3>Homeowners Insurance</h3>
+        <p>What's covered, what's not, and how to avoid paying for coverage you don't need.</p>
+      </a>
+      <a class="card" href="/life/">
+        <div class="tag">❤️ Life</div>
+        <h3>Life Insurance</h3>
+        <p>Term vs. whole life explained simply. How much you actually need (probably less than you think).</p>
+      </a>
+      <a class="card" href="/health/">
+        <div class="tag">🏥 Health</div>
+        <h3>Health Insurance</h3>
+        <p>Navigate plans, deductibles, and networks without losing your mind.</p>
+      </a>
+    </div>
+
+    <h2 class="section-title">Latest Guides</h2>
+    <div class="article-list" id="articles">
+      <!-- populated by JS -->
+    </div>
+
+    <div class="cta-banner">
+      <h2>Stop overpaying for insurance</h2>
+      <p>Join thousands who've used our guides to cut their premiums by 20-40%</p>
+      <a href="/guides/">Start comparing →</a>
+    </div>
+
+    <footer>
+      <p>InsureWise provides educational content only. We don't sell insurance or collect personal data.<br>
+      Always verify rates and coverage directly with providers. &copy; 2026 InsureWise</p>
+    </footer>
+  </div>
+
+  <script>
+    // Load latest articles
+    fetch('/articles.json', {cache:'no-store'})
+      .then(r => r.ok ? r.json() : Promise.reject())
+      .then(data => {
+        const list = document.getElementById('articles');
+        const articles = (data.articles || []).slice(0,10);
+        list.innerHTML = articles.map(a => `
+          <a href="${a.url}">
+            <div>
+              <div class="date">${a.date}</div>
+              <div class="title">${a.title}</div>
+              <div class="desc">${a.desc}</div>
+            </div>
+          </a>
+        `).join('');
+      })
+      .catch(() => {
+        document.getElementById('articles').innerHTML = '<p style="color:var(--muted)">Guides coming soon...</p>';
+      });
+  </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+{
+  "articles": [
+    {
+      "date": "2026-03-14",
+      "title": "How Much Car Insurance Do You Actually Need? (State Minimums vs. Smart Coverage)",
+      "desc": "State minimums keep you legal but leave you exposed. Here's the right amount for most drivers.",
+      "url": "/auto/how-much-car-insurance-do-you-need.html",
+      "category": "auto"
+    },
+    {
+      "date": "2026-03-14",
+      "title": "11 Car Insurance Discounts You're Probably Missing in 2026",
+      "desc": "From low-mileage to paperless billing — most drivers leave $500+/year on the table.",
+      "url": "/auto/car-insurance-discounts.html",
+      "category": "auto"
+    },
+    {
+      "date": "2026-03-14",
+      "title": "Homeowners Insurance Deductible: $500, $1,000, or $2,500?",
+      "desc": "How to pick the deductible sweet spot that saves you the most without risking a big surprise.",
+      "url": "/home/homeowners-insurance-deductible.html",
+      "category": "home"
+    },
+    {
+      "date": "2026-03-14",
+      "title": "Term Life vs. Whole Life Insurance: The Clear-Cut Answer for 2026",
+      "desc": "Spoiler: term wins for most people. Here's when whole life actually makes sense.",
+      "url": "/life/term-vs-whole-life-insurance.html",
+      "category": "life"
+    },
+    {
+      "date": "2026-03-14",
+      "title": "Health Insurance Deductible Explained in 2 Minutes",
+      "desc": "What it is, how it works, and why a lower deductible isn't always better.",
+      "url": "/health/health-insurance-deductible-explained.html",
+      "category": "health"
+    }
+  ]
+}
