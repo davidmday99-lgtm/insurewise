@@ -1,6 +1,41 @@
 {
   "articles": [
     {
+      "date": "2026-03-16",
+      "title": "Cheapest Car Insurance Companies in 2026: Real Rate Comparisons",
+      "desc": "Compare average rates from State Farm, GEICO, Progressive, USAA and more. Plus 7 ways to get the lowest possible rate.",
+      "url": "/auto/cheapest-car-insurance-companies-2026.html",
+      "category": "auto"
+    },
+    {
+      "date": "2026-03-16",
+      "title": "SR-22 Insurance: What It Is, How Much It Costs, and How to Get It",
+      "desc": "Everything you need to know about SR-22 filings — when you need one, what it costs, and which companies to use.",
+      "url": "/auto/sr-22-insurance-what-is-it.html",
+      "category": "auto"
+    },
+    {
+      "date": "2026-03-16",
+      "title": "How Much Life Insurance Do You Actually Need? (Calculator + Rules of Thumb)",
+      "desc": "Use the DIME method and simple rules of thumb to calculate the right coverage amount for your family.",
+      "url": "/life/how-much-life-insurance-do-you-need.html",
+      "category": "life"
+    },
+    {
+      "date": "2026-03-16",
+      "title": "What Does Homeowners Insurance Actually Cover? (And What It Doesn't)",
+      "desc": "The 6 standard coverages, what's excluded, replacement cost vs. cash value, and how much coverage you need.",
+      "url": "/home/what-does-homeowners-insurance-cover.html",
+      "category": "home"
+    },
+    {
+      "date": "2026-03-16",
+      "title": "HSA vs FSA: What's the Difference and Which One Should You Use?",
+      "desc": "Side-by-side comparison of HSAs and FSAs, 2026 contribution limits, and the retirement hack most people miss.",
+      "url": "/health/hsa-vs-fsa-whats-the-difference.html",
+      "category": "health"
+    },
+    {
       "date": "2026-03-14",
       "title": "How Much Car Insurance Do You Actually Need? (State Minimums vs. Smart Coverage)",
       "desc": "State minimums keep you legal but leave you exposed. Here's the right amount for most drivers.",
@@ -10,7 +45,7 @@
     {
       "date": "2026-03-14",
       "title": "11 Car Insurance Discounts You're Probably Missing in 2026",
-      "desc": "From low-mileage to paperless billing — most drivers leave $500+/year on the table.",
+      "desc": "From low-mileage to paperless billing - most drivers leave $500+/year on the table.",
       "url": "/auto/car-insurance-discounts.html",
       "category": "auto"
     },
